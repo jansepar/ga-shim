@@ -1,0 +1,18 @@
+{
+  "name": "ga-shim",
+  "version": "0.0.1",
+  "description": "Shim that intercepts API calls created for Classic Google Analytics (ga.js) and converts them to be compatible with Google Universal Analytics (analytics.js)",
+  "author": "Shawn Jansepar <shawnjan@gmail.com>",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.2.x",
+    "grunt-express": "~0.3.6",
+    "grunt-mocha": "^0.4.11",
+    "grunt-saucelabs": "4.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jansepar/ga-shim.git"
+  }
+}
