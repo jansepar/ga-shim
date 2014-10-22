@@ -1,19 +1,19 @@
 /**
- * ga-shim.js 0.0.1
+ * ga-shim.js 0.0.2
  *
  * (c) 2014 Shawn Jansepar, Mobify 
  * ga-shim.js may be freely distributed under the MIT license.
  *
  */
 (function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
-        // AMD. Register as an anonymous module.
-        define([], factory);
-    } else if (typeof exports === 'object') {
+    if (typeof exports === 'object') {
         // Node. Does not work with strict CommonJS, but
         // only CommonJS-like environments that support module.exports,
         // like Node.
         module.exports = factory();
+    } else if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define([], factory);
     } else {
         // Browser globals (root is window)
         root.GAShim = factory();
