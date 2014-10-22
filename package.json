@@ -1,6 +1,6 @@
 {
   "name": "ga-shim",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shim that intercepts API calls created for Classic Google Analytics (ga.js) and converts them to be compatible with Google Universal Analytics (analytics.js)",
   "author": "Shawn Jansepar <shawnjan@gmail.com>",
   "devDependencies": {
